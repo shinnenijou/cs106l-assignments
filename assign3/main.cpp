@@ -3,11 +3,15 @@
  * Created by Fabio Ibanez with modifications by Jacob Roberts-Baca.
  */
 
+#include "class.h"
+
 /* #### Please don't change this line! #### */
 int run_autograder();
 
 int main() {
-  // STUDENT TODO: Construct an instance of your class!
+    Pig pig;
+    pig.set_name("mitagun");
+    pig.grow_up();
 
   /* #### Please don't change this line! #### */
   return run_autograder();
